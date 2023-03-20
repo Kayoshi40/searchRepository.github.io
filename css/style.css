@@ -1,0 +1,102 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.app {
+  padding: 25px;
+}
+
+.title {
+  text-align: center;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+}
+
+.search-line {
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 20px;
+  padding: 8px 15px;
+}
+
+.repositorys-wrapper {
+  padding: 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.repositorys {
+  width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.repository-info {
+  padding-left: 100px;
+  width: 50%;
+  padding: 0;
+}
+
+.repository-prev {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  margin: 3% auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.repository-prev-photo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.repository-prev-name {
+  font-weight: 600;
+}
+
+.repository-prev-description {
+  font-size: 14;
+}
+
+.repository-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.repository-list-item {
+  margin: 5px;
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
